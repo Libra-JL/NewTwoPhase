@@ -7,6 +7,7 @@ import org.apache.flink.util.Collector;
 
 import java.util.Random;
 
+
 public class Main {
     public static void main(String[] args) throws Exception {
 
