@@ -26,9 +26,9 @@ public class Main {
                 final Random random = new Random();
                 for (int i = 0; i < length; i++) {
                     //随机生成项的个数，放在项的个数拼接
-                    itemsNum.append(random.nextInt(100)+50);
+                    itemsNum.append(random.nextInt(10)+1);
                     itemsNum.append(" ");
-                    itemsPrice.append(random.nextInt(450)+50);
+                    itemsPrice.append(random.nextInt(50)+1);
                     itemsPrice.append(" ");
                 }
 
